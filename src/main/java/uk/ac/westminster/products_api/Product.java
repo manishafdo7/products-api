@@ -21,6 +21,10 @@ public class Product {
         return name;
     }
 
+    /*(Now imagine this happened in your coursework project, in a class
+    with fifteen fields. Write one sentence in your notes about how you would notice.)
+    I would notice it when a field is missing from the JSON response even though there is no error.*/
+
     public double getPrice() {
         return price;
     }
